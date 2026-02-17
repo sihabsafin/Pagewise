@@ -319,7 +319,7 @@ Answer:"""
     # Initialize LLM
     llm = ChatGroq(
         groq_api_key=groq_key,
-        model_name="gemma2-9b-it",
+        model_name="llama-3.3-70b-versatile",
         temperature=temperature,
         streaming=True,
     )
