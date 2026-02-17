@@ -276,7 +276,7 @@ def query_with_streaming(chain, retriever, question: str, chat_history: list, st
             unsafe_allow_html=True,
         )
 
-    docs = retriever.get_relevant_documents(question)
+    docs = retriever.invoke(question)
 
     # Build context
     context_parts = []
