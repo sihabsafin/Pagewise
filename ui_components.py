@@ -26,7 +26,7 @@ def render_top_bar():
       <div class="top-bar-right">
         <div class="model-badge">
           <span class="model-badge-dot"></span>
-          Gemma 2 · Groq
+          Llama 3.3 · Groq
         </div>
         <div class="model-badge" style="gap:6px">
           <span style="width:6px;height:6px;border-radius:50%;background:{status_color};display:inline-block;"></span>
