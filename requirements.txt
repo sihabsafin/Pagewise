@@ -1,0 +1,15 @@
+streamlit>=1.35.0
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-huggingface>=0.0.3
+langchain-groq>=0.1.6
+langchain-astradb>=0.3.3
+langchain-core>=0.2.0
+groq>=0.9.0
+astrapy>=1.2.0
+pypdf>=4.2.0
+sentence-transformers>=3.0.0
+huggingface-hub>=0.23.0
+torch>=2.0.0
+transformers>=4.40.0
+pydantic>=2.0.0
