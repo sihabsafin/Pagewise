@@ -11,7 +11,10 @@ import streamlit as st
 # Lazy imports for better startup time
 def _import_pdf_tools():
     from langchain_community.document_loaders import PyPDFLoader
-    from langchain.text_splitter import RecursiveCharacterTextSplitter
+    try:
+        from langchain_text_splitters import RecursiveCharacterTextSplitter
+    except ImportError:
+        from langchain.text_splitter import RecursiveCharacterTextSplitter
     return PyPDFLoader, RecursiveCharacterTextSplitter
 
 def _import_embeddings():
